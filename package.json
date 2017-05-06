@@ -1,0 +1,27 @@
+{
+  "name": "curtail",
+  "version": "0.1.0",
+  "description": "A simple functional javascript state machine that you can build whole apps in",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "mocha --recursive test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtwebman/curtail.git"
+  },
+  "author": "JT Turner <jtwebman@gmail.com> (https://jtwebman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtwebman/curtail/issues"
+  },
+  "homepage": "https://github.com/jtwebman/curtail#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "mocha": "^3.3.0"
+  }
+}
